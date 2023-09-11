@@ -34,3 +34,4 @@ htmlpath：是Razor页面所在的目录
     @* Test1 *@
 }
 ```
+详细使用示例可以查看[DF.Telegram](https://github.com/df123/DF.Telegram/tree/vue3_typescript)中的src/DF.Telegram.Web/VueApp
