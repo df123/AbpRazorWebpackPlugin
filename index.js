@@ -47,7 +47,6 @@ class AbpRazorWebpackPlugin {
     modifyFile(fileData, targetChar, newContent) {
     
         try {
-            // const fileData = readFile(filePath);
             const lines = fileData.split(os.EOL);
             let startLine = null;
             let endLine = null;
@@ -100,8 +99,6 @@ class AbpRazorWebpackPlugin {
                         scriptStrs.push(scriptStr);
                     }
                 }
-                console.log(targetChar);
-                console.log(scriptStrs.join(os.EOL));
                 for(const key in cshtmlContents){
                     const modifiedData = this.modifyFile(cshtmlContents[key], targetChar, scriptStrs.join(os.EOL));
                     if(modifiedData){
