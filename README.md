@@ -22,7 +22,7 @@ module.exports = {
 
 需要参数path，和htmlpath
 ```
-path:是webpack打包生成的目录
+path:添加abp-script的src的目录
 htmlpath：是Razor页面所在的目录
 ```
 
